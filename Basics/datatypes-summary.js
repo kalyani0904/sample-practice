@@ -49,3 +49,31 @@ BigInt  =>  bigint
 Arrays  =>  object
 Function  =>  function
 Object  =>  object*/
+
+
+
+// Stack (Primitive) => Copy of variable 
+// Heap (Non-Primitive) => reference of original value
+
+let myName = "kalyani"
+
+let anotherName = myName
+
+anotherName ="shruti"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne ={
+    email : "kalyani@gmail.com",
+    age :20
+}
+
+let userTwo = userOne
+
+userTwo.email ="shruti@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
